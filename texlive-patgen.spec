@@ -1,16 +1,17 @@
-# revision 23089
+# revision 26689
 # category TLCore
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
+# catalog-ctan /obsolete/systems/knuth/unsupported/texware/patgen.web
+# catalog-date 2011-07-17 16:49:53 +0200
+# catalog-license knuth
+# catalog-version 2.3
 Name:		texlive-patgen
-Version:	20111103
-Release:	2
-Summary:	TeXLive patgen package
+Epoch:		1
+Version:	2.3
+Release:	1
+Summary:	Generate hyphenation patterns
 Group:		Publishing
-URL:		http://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
+URL:		http://www.ctan.org/tex-archive/obsolete/systems/knuth/unsupported/texware/patgen.web
+License:	KNUTH
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/patgen.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/patgen.doc.tar.xz
 BuildArch:	noarch
@@ -20,7 +21,10 @@ Requires:	texlive-kpathsea
 Requires:	texlive-patgen.bin
 
 %description
-TeXLive patgen package.
+This is the last version of the program distributed by Knuth;
+it advertises itself as a pattern generator for "the algorithm
+used in TeX", but, of course, the patterns used in modern
+distributions are Unicode-based.
 
 #-----------------------------------------------------------------------
 %files
