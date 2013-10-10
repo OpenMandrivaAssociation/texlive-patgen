@@ -1,13 +1,13 @@
-# revision 26689
+# revision 29764
 # category TLCore
 # catalog-ctan /obsolete/systems/knuth/unsupported/texware/patgen.web
-# catalog-date 2011-07-17 16:49:53 +0200
+# catalog-date 2012-06-09 20:15:34 +0200
 # catalog-license knuth
 # catalog-version 2.3
 Name:		texlive-patgen
 Epoch:		1
 Version:	2.3
-Release:	1
+Release:	2
 Summary:	Generate hyphenation patterns
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/obsolete/systems/knuth/unsupported/texware/patgen.web
@@ -29,7 +29,7 @@ distributions are Unicode-based.
 #-----------------------------------------------------------------------
 %files
 %doc %{_mandir}/man1/patgen.1*
-%doc %{_texmfdir}/doc/man/man1/patgen.man1.pdf
+%doc %{_texmfdistdir}/doc/man/man1/patgen.man1.pdf
 
 #-----------------------------------------------------------------------
 %prep
@@ -39,24 +39,6 @@ distributions are Unicode-based.
 
 %install
 mkdir -p %{buildroot}%{_datadir}
-cp -fpar texmf %{buildroot}%{_datadir}
+cp -fpar texmf-dist %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_mandir}/man1
-mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
-
-
-%changelog
-* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:2.3-1
-+ Revision: 812727
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111103-2
-+ Revision: 754704
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111103-1
-+ Revision: 719204
-- texlive-patgen
-- texlive-patgen
-- texlive-patgen
-- texlive-patgen
-
+mv %{buildroot}%{_texmfdistdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
