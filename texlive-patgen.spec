@@ -1,13 +1,13 @@
-# revision 29764
+# revision 33736
 # category TLCore
 # catalog-ctan /obsolete/systems/knuth/unsupported/texware/patgen.web
-# catalog-date 2012-06-09 20:15:34 +0200
+# catalog-date 2014-02-26 23:03:13 +0100
 # catalog-license knuth
 # catalog-version 2.3
 Name:		texlive-patgen
 Epoch:		1
 Version:	2.3
-Release:	7
+Release:	8
 Summary:	Generate hyphenation patterns
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/obsolete/systems/knuth/unsupported/texware/patgen.web
