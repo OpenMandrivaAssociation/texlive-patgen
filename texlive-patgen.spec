@@ -1,19 +1,13 @@
-# revision 33736
-# category TLCore
-# catalog-ctan /obsolete/systems/knuth/unsupported/texware/patgen.web
-# catalog-date 2014-02-26 23:03:13 +0100
-# catalog-license knuth
-# catalog-version 2.3
 Name:		texlive-patgen
 Epoch:		1
-Version:	2.3
-Release:	12
+Version:	62387
+Release:	1
 Summary:	Generate hyphenation patterns
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/obsolete/systems/knuth/unsupported/texware/patgen.web
 License:	KNUTH
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/patgen.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/patgen.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/patgen.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/patgen.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -33,7 +27,7 @@ distributions are Unicode-based.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
