@@ -1,7 +1,7 @@
 Name:		texlive-patgen
 Epoch:		1
-Version:	62387
-Release:	2
+Version:	66186
+Release:	1
 Summary:	Generate hyphenation patterns
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/obsolete/systems/knuth/unsupported/texware/patgen.web
