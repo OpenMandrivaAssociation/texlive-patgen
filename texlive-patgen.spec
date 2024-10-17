@@ -4,7 +4,7 @@ Version:	70015
 Release:	1
 Summary:	Generate hyphenation patterns
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/obsolete/systems/knuth/unsupported/texware/patgen.web
+URL:		https://www.ctan.org/tex-archive/obsolete/systems/knuth/unsupported/texware/patgen.web
 License:	KNUTH
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/patgen.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/patgen.doc.r%{version}.tar.xz
