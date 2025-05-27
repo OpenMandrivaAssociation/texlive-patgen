@@ -1,6 +1,6 @@
 Name:		texlive-patgen
 Epoch:		1
-Version:	70015
+Version:	73848
 Release:	1
 Summary:	Generate hyphenation patterns
 Group:		Publishing
